@@ -3,7 +3,7 @@ import ColorBar from "./colorBar";
 
 const Info = () =>{
 
-    const icons = ['Contributor', 'Issues', 'Stars', 'Forks']
+    // const icons = ['Contributor', 'Issues', 'Stars', 'Forks']
 
     return(
         <div className="flex flex-col px-12 py-12 w-[70%] border-zinc-600 rounded-lg  font-sans">
