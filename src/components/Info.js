@@ -1,9 +1,6 @@
 import IconBar from "./IconBar";
 
-
 const Info = () =>{
-
-    // const icons = ['Contributor', 'Issues', 'Stars', 'Forks']
 
     return(
         <div className="flex flex-col px-12 py-12 w-[70%] border-zinc-600 rounded-lg  font-sans">
@@ -17,9 +14,6 @@ Web Developers Coursera Course</p>
             </div>
 
             <div className="grid grid-cols-4 gap-4 px-12 py-8">
-                {/* {
-                    icons.map((item)=><IconBar/>)
-                } */} 
                 <IconBar/>
                 <IconBar name="Issues"/>
                 <IconBar name="Stars" count={5} />

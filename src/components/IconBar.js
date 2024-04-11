@@ -21,9 +21,6 @@ const IconBar = ({count = 0, name = "Contributor"}) =>{
                 <div className="">{name}</div>
             </div>
         </div>
-            // <div className="flex"></div>
-            // <div className="flex"></div>
-            // <div className="flex"></div>
     )
 }
 
