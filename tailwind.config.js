@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'code': 'Mona Sans'
-      },
+        'noto-sans-mono': ['Noto Sans Mono', 'monospace'],
+      }
     },
   },
   plugins: [],

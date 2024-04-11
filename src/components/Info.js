@@ -1,5 +1,5 @@
 import IconBar from "./IconBar";
-import ColorBar from "./colorBar";
+
 
 const Info = () =>{
 
@@ -25,9 +25,6 @@ Web Developers Coursera Course</p>
                 <IconBar name="Stars" count={5} />
                 <IconBar name="Forks" count={5} />
             </div>
-
-            <ColorBar/>
-
         </div>
     )
 
